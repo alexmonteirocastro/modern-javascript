@@ -1,5 +1,5 @@
-#Modern JavaScript From The Beginning
+# Modern JavaScript From The Beginning
 
 This repository contains my exercise folder for Brad Traversy's course on Udemy. 
 
-Course can be found on https://www.udemy.com/modern-javascript-from-the-beginning/
+Course can be found [here](https://www.udemy.com/modern-javascript-from-the-beginning/)
