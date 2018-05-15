@@ -16,54 +16,40 @@ button3.addEventListener('click', getExternal);
 function getText(){
     //Fetch returns a promise
     fetch('test.txt')
-        .then(function(res){
-            return res.text();
-        })
-        .then(function(data){
+        .then(res => res.text())
+        .then(data => {
             console.log(data);
             outputArea.innerText = data; 
         })
-        .catch(function(err){
-            console.log(err);
-        });
+        .catch(err => console.log(err));
 }
 
 //to get JSON
 function getJSON(){
     //Fetch returns a promise
     fetch('posts.json')
-        .then(function(res){
-            return res.json();
-        })
-        .then(function(data){
+        .then(res => res.json())
+        .then(data => {
             console.log(data);
             let output = '';
-            data.forEach(function(post){
+            data.forEach(post =>{
                 output += `<li>${post.title} - ${post.body}</li>`;
             });
             outputArea.innerHTML = output;
         })
-        .catch(function(err){
-            console.log(err);
-        });
+        .catch(err => console.log(err));
 }
 
 //to get data from external API
 function getExternal(){
     //Fetch returns a promise
     fetch('https://api.github.com/users')
-        .then(function(res){
-            return res.json();
-        })
-        .then(function(data){
+        .then(res => res.json())
+        .then(data => {
             console.log(data);
             let output = '';
-            data.forEach(function(user){
-                output += `<li>${user.login}</li>`;
-            });
+            data.forEach(user => {output += `<li>${user.login}</li>`});
             outputArea.innerHTML = output;
         })
-        .catch(function(err){
-            console.log(err);
-        });
+        .catch(err => console.log(err));
 }
