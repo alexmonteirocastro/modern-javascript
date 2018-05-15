@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "company": "123 Designs",
+        "phone": "444-555-6666"
+    },
+    {
+        "id": 2,
+        "name": "Brad Traversy",
+        "company": "Traversy media",
+        "phone": "555-000-5897"
+    },
+    {
+        "id": 3,
+        "name": "Marie curie",
+        "company": "Curie Chemicals",
+        "phone": "123456789"
+    }   
+]
