@@ -1,0 +1,36 @@
+body {
+    background-color: darksalmon;
+}
+
+.filled{
+    background-image: url('http://www.prospectmagazine.co.uk/wp-content/uploads/2016/11/Pepedankmeems420blazeitohbabyatripledankaestheticafkeepit100.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+.hold{
+    border: solid #ccc 4px;
+}
+
+.hovered{
+    background: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible{
+    display: none;
+}
