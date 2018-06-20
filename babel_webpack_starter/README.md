@@ -7,3 +7,5 @@ As learned from Brad Traversy
 `npm run build` *compiles* into the bundled js file
 
 `npm start` *compiles* and *runs the development server*
+
+For production just use the *index.html* AND the *build* directory
