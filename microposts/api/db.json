@@ -1,0 +1,9 @@
+{
+  "posts": [
+    {
+      "title": "First post",
+      "body": "This is my first micropost!",
+      "id": 1
+    }
+  ]
+}
